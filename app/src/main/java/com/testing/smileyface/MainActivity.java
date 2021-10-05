@@ -232,24 +232,12 @@ public class MainActivity extends AppCompatActivity implements FaceGraphic.ISmil
             File file = new File(mediaStorageDir, "NF_" + System.currentTimeMillis() + "_PIC.jpg");
 
             out = new FileOutputStream(file);
-            if(picture.getHeight() < picture.getWidth()) {
-                Matrix matrix = new Matrix();
 
-                matrix.postRotate(-90);
-
-                Bitmap scaledBitmap = Bitmap.createScaledBitmap(picture, picture.getWidth(), picture.getHeight(), true);
-
-                Bitmap rotatedBitmap = Bitmap.createBitmap(scaledBitmap, 0, 0, scaledBitmap.getWidth(), scaledBitmap.getHeight(), matrix, true);
-                rotatedBitmap.compress(Bitmap.CompressFormat.JPEG, 100, out);
-            }else {
-                picture.compress(Bitmap.CompressFormat.JPEG, 100, out);
-            }
-
+            picture.compress(Bitmap.CompressFormat.JPEG, 100, out);
 
             out.flush();
             out.close();
 
-            MediaScannerConnection.scanFile(context, new String[]{file.getPath()}, new String[]{"image/jpeg"}, null);
             moveToAnotherActivity(file);
         }
 
