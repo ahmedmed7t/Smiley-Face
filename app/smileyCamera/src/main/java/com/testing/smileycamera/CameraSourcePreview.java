@@ -10,7 +10,7 @@ import android.view.TextureView;
 import android.view.ViewGroup;
 
 import com.google.android.gms.common.images.Size;
-import com.testing.smileycamera.Utils.Utils;
+import com.testing.smileycamera.Utils.*;
 
 import java.io.IOException;
 

@@ -35,6 +35,7 @@ import android.util.Log;
 import android.util.SparseIntArray;
 import android.view.MotionEvent;
 import android.view.Surface;
+import com.testing.smileycamera.Utils.*;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -44,7 +45,6 @@ import androidx.core.content.ContextCompat;
 import com.google.android.gms.common.images.Size;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Frame;
-import com.testing.smileycamera.Utils.Utils;
 
 import java.io.IOException;
 import java.lang.Thread.State;
@@ -1384,7 +1384,7 @@ public class Camera2Source
                         {
                             unlockFocus();
                         }
-                    }, 3000);
+                    }, 1000);
                 }
             };
 
