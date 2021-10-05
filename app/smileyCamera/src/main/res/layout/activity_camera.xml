@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+<!--    <com.otaliastudios.cameraview.CameraView-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/Camera_View"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:cameraPictureSizeSmallest="true"-->
+<!--        app:cameraPictureSizeBiggest="false"-->
+
+<!--        app:cameraVideoSizeSmallest="false"-->
+<!--        app:cameraVideoSizeBiggest="false"-->
+<!--        app:cameraGestureTap="autoFocus"-->
+<!--        app:cameraGestureLongTap="autoFocus"-->
+<!--        app:cameraGesturePinch="none"-->
+<!--        app:cameraGestureScrollHorizontal="none"-->
+<!--        app:cameraGestureScrollVertical="none"-->
+<!--        app:cameraEngine="camera2"-->
+<!--        app:cameraPreview="surface"-->
+<!--        app:cameraPreviewFrameRateExact="true"-->
+<!--        app:cameraFacing="back"-->
+<!--        app:cameraHdr="on"-->
+<!--        app:cameraFlash="auto"-->
+<!--        app:cameraWhiteBalance="auto"-->
+<!--        app:cameraMode="picture"-->
+<!--        app:cameraAudio="on"-->
+<!--        app:cameraGrid="off"-->
+<!--        app:cameraGridColor="@color/cardview_dark_background"-->
+<!--        app:cameraPlaySounds="true"-->
+<!--        app:cameraVideoCodec="deviceDefault"-->
+<!--        app:cameraAutoFocusMarker="@string/cameraview_default_autofocus_marker"-->
+<!--        app:cameraUseDeviceOrientation="true"-->
+<!--        app:cameraPictureMetering="true"-->
+<!--        app:cameraPictureSnapshotMetering="true"-->
+<!--        app:cameraPictureFormat="jpeg"-->
+<!--        app:cameraRequestPermissions="true"-->
+<!--        app:cameraExperimental="false">-->
+
+
+<!--    </com.otaliastudios.cameraview.CameraView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

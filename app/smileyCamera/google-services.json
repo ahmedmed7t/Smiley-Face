@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "773944677048",
+    "firebase_url": "https://medhat.firebaseio.com",
+    "project_id": "medhat",
+    "storage_bucket": "medhat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773944677048:android:7e53b95e96de61efceda4d",
+        "android_client_info": {
+          "package_name": "com.testing.smileyface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773944677048-9r372vfi0v98k5lrlv58gkds2bjs5guu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CBwOohdGZKCVY2cY-U9Ii48Mpaeaw7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773944677048-9r372vfi0v98k5lrlv58gkds2bjs5guu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773944677048:android:4b94cee97c6a9ab4ceda4d",
+        "android_client_info": {
+          "package_name": "example.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773944677048-9r372vfi0v98k5lrlv58gkds2bjs5guu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CBwOohdGZKCVY2cY-U9Ii48Mpaeaw7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773944677048-9r372vfi0v98k5lrlv58gkds2bjs5guu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
